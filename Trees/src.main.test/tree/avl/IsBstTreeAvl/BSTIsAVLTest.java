@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import tree.bst.BinaryTree;
+import tree.bst.BinarySearchTree;
 import tree.bst.Node;
 
 public class BSTIsAVLTest {
@@ -19,7 +19,7 @@ public class BSTIsAVLTest {
 	
 	@Test
 	public void isAvl() {
-		BinaryTree tree = new BinaryTree();
+		BinarySearchTree tree = new BinarySearchTree();
 		tree.add(15);
 		tree.add(10);
 		tree.add(12);

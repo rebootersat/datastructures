@@ -7,11 +7,11 @@ import org.junit.Test;
 
 public class BinaryTreeTest {
 
-	private BinaryTree tree;
+	private BinarySearchTree tree;
 
 	@Before
 	public void setUp() {
-		tree = new BinaryTree();
+		tree = new BinarySearchTree();
 	}
 
 	@Test
