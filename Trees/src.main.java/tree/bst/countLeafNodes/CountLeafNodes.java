@@ -14,7 +14,7 @@ public class CountLeafNodes {
 			return 0;
 		int left = getLeafNodeCount(root.left);
 		int right = getLeafNodeCount(root.right);
-		if(root.left == null & root.right ==null)
+		if(root.left == null && root.right ==null)
 			return left + right + 1;
 		return left + right;
 	}

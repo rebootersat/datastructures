@@ -15,7 +15,7 @@ public class CountNonLeafNodes {
 		int left = getCount(root.left);
 		int right = getCount(root.right);
 		
-		if(root.left != null & root.right != null)
+		if(root.left != null && root.right != null)
 			return left + right + 1;
 		return left + right;
 	}

@@ -10,12 +10,11 @@ public class IdenticalStructure {
 	}
 
 	private boolean isIdentical(Node root1, Node root2) {
-		if(root1 == null & root2 == null)
+		if(root1 == null && root2 == null)
 			return true;
-		if(root1 != null & root2 == null)
+		if(root1 == null || root2 == null)
 			return false;
-		if(root1 == null & root2 != null)
-			return false;
+		
 		if(!isIdentical(root1.left, root2.left))
 			return false;
 		if(!isIdentical(root1.right, root2.right))
