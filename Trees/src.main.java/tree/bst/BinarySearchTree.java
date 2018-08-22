@@ -55,4 +55,17 @@ public class BinarySearchTree {
 		return Math.max(leftHeight, rightHeight) + 1;
 	}
 	
+	public static BinarySearchTree getBinarySearchTree() {
+		BinarySearchTree tree = new BinarySearchTree();
+		tree.add(50);
+		tree.add(25);
+		tree.add(75);
+		tree.add(20);
+		tree.add(30);
+		tree.add(27);
+		tree.add(60);
+		tree.add(90);
+		tree.add(35);
+		return tree;
+	}
 }
